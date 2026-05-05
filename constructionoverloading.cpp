@@ -35,3 +35,14 @@ void mahasiswa::cetak(){
   cout << "nama = " << nama <<endl;
 }
 
+int main(){
+  mahasiswa mhs1 (1000000);
+  mahasiswa mhs2("fadil");
+  mahasiswa mhs3(00101010, "yura");
+
+  cout << "mahasiswa 1:"; mhs1.cetak();
+  cout << "mahasiswa 2:"; mhs2.cetak();
+  cout << "mahasiswa 3:"; mhs3.cetak();
+
+  return 0;
+}
