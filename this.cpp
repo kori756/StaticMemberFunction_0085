@@ -12,3 +12,8 @@ class buku{
   }
 };
 
+int main(){
+  buku bukunya;
+  cout << bukunya.setget ("mtk");
+  return 0;
+}
